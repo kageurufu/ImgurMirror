@@ -1,7 +1,4 @@
 <?php
-//die("some asshole ruined this for you, good job guys");
-	//leftovers from when someone pissed me off by using this to upload an exploit to ma server
-
 $imgur = $_SERVER['QUERY_STRING'] ;
 	//Grab the image url from the query string
 
