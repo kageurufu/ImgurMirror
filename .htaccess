@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^(a|gallery)/([a-zA-Z0-9]{5,})$ /?$1/$2
+RewriteRule ^([a-zA-Z0-9]{5,32})$ /?$1
+RewriteRule ^([a-zA-Z0-9]{5,})\.(png|jpe?g|gifv?|webm|mp4)$ /?$1.$2
